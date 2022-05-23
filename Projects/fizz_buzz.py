@@ -1,6 +1,6 @@
 # Fizz Buzz
 
-run = input(print("Which program do you want to run?: for/while"))
+run = input("Which program do you want to run?: for/while\n")
 
 if run.lower() == "for":
     for x in range(1, 101):
