@@ -1,5 +1,8 @@
-class Customer:
-    def __int__(self, fname, lname):
+class Person:
+    def __init__(self):
+        pass
+
+    def __init__(self, fname, lname):
         self._first_name = fname
         self._last_name = lname
 
