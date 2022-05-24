@@ -2,9 +2,11 @@
 
 check_input = True
 check_num = True
+play_again = True
 
 while check_input:
     run = input("Which program do you want to run?: for/while\n")
+    play_again = True
     if run.lower() == "for":
         check_input = False
         while check_num:
@@ -46,9 +48,16 @@ while check_input:
                 print("Please enter a valid number")
     else:
         print("Please input either for or while.")
-    play = input("Do you want to keep playing?\n yes\n no\n")
-    if play.lower() == "yes":
-        check_input = True
-        check_num = True
-    else:
-        check_input = False
+
+    while play_again:
+        play = input("Do you want to keep playing?\nYes\nNo\n")
+        if play.lower() == "yes" or play.lower() == "y":
+            check_input = True
+            check_num = True
+            play_again = False
+        elif play.lower() == "no" or play.lower() == "n":
+            check_input = False
+            check_num = False
+            play_again = False
+        else:
+            print("Please enter Yes or No.")
