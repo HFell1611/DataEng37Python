@@ -51,13 +51,11 @@ while check_input:
 
     while play_again:
         play = input("Do you want to keep playing?\nYes\nNo\n")
-        if play.lower() == "yes" or play.lower() == "y":
+        if play.lower() in ("yes", "y"):
             check_input = True
             check_num = True
             play_again = False
-        elif play.lower() == "no" or play.lower() == "n":
-            check_input = False
-            check_num = False
+        elif play.lower() in ("no", "n"):
             play_again = False
         else:
             print("Please enter Yes or No.")
