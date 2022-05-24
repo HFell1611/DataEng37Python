@@ -46,3 +46,9 @@ while check_input:
                 print("Please enter a valid number")
     else:
         print("Please input either for or while.")
+    play = input("Do you want to keep playing?\n yes\n no\n")
+    if play.lower() == "yes":
+        check_input = True
+        check_num = True
+    else:
+        check_input = False
