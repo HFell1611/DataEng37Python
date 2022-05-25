@@ -16,12 +16,6 @@ class Square(Rectangle):
         perimeter = 4 * self.width
         return f"The perimeter is {perimeter}"
 
-    def __repr__(self):
-        return f"Info(area={self.get_area()},perimeter={self.get_perimeter()})"
-
-    def __str__(self):
-        return f"{self.get_area()} and {self.get_perimeter()}"
-
 
 if __name__ == "__main__":
     square = Square()
