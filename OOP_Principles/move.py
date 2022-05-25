@@ -15,7 +15,7 @@ if __name__ == "__main__":
     flamethrower = Move(
         "Flamethrower",
         "Fire",
-        power=100
+        power=10
     )
 
     print(flamethrower)
