@@ -7,3 +7,7 @@ redyellowgreenNew string to write
 red
 yellow
 green
+New string to write
+red
+yellow
+green
