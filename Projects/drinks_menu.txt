@@ -1,0 +1,7 @@
+whiskey
+beer
+red wine
+white wine
+cider
+champagne
+prosecco
