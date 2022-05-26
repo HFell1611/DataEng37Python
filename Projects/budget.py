@@ -10,8 +10,10 @@ class Budget:
             return self.food
         elif category.lower() == "clothing":
             self.clothing += funds_add
+            return self.clothing
         elif category.lower() == "entertainment":
             self.entertainment += funds_add
+            return self.entertainment
         else:
             return "Invalid category"
 
@@ -50,7 +52,7 @@ class Budget:
                 return "Invalid category 2"
         # Entertainment check
         elif category1.lower() == "entertainment":
-            if self.entertainment - funds <= 0:
+            if self.entertainment - funds < 0:
                 return "Funds will be below 0"
             self.entertainment -= funds
             if category2.lower() == "food":
