@@ -5,7 +5,7 @@ class Pokemon:
         self.hp = hp
         self.attack = attack
         self.defense = defense
-        self. lvl = 1
+        self.lvl = 1
         self.moves = []
 
     def receive_attack(self, power, is_supper_effective=False):
