@@ -1,7 +1,6 @@
 import json
 
 
-
 class RatesParser:
     def __init__(self, filepath):
         rates_data = self._open_json_file(filepath)

@@ -49,7 +49,7 @@ jobs = ["Data Analyst", "C# Developer", "Data Engineer", "DevOps Engineer", "Dat
 # Produce a list of the data-based roles without the word data in there
 
 keep_data = filter(lambda x: "Data" in x, jobs)
-# print(list(keep_data))
+#print(list(keep_data))
 
 #no_data = map(lambda x:  x[5:], keep_data)
 no_data = map(lambda x:  x.replace("Data ", ""), keep_data)

@@ -44,7 +44,7 @@ k = "hello World. greetings. something else. yes"
 # print(type(h))
 # print(h.lower())
 # print(h.upper())
-# print(h.capitalize())
+print(h.capitalize())
 # print(i.strip())
 # print(h.count('o'))
 # print(h.replace('o', 'ooooo').capitalize())

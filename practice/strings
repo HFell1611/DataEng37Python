@@ -1,0 +1,11 @@
+a string is a list which can be modified
+b = "Hello World"
+
+print(b[2:5]) - this will get all letter in position 2 to, but not including, position 5
+              - it will print "llo"
+print(b[:5])  - this will print everything up to, but not including, position 5
+              - it will return "Hello"
+print(b[2:])  - this will print everything from position 2 and onwards
+              - it will print "llo World"
+              - all these work with negative numbers, going back starting at -1
+print(b[::-1} - this will print all the letters in the string but backwards in steps of 1
